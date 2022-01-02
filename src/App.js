@@ -1,12 +1,10 @@
 import "./App.css";
-import Banner from "./Components/Home/Banner/Banner";
-import Navigation from "./Components/Shared/Navigation/Navigation";
+import Home from "./Components/Home/Home/Home";
 
 function App() {
   return (
     <div className="App">
-      <Navigation />
-      <Banner />
+      <Home />
     </div>
   );
 }
