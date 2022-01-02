@@ -1,10 +1,21 @@
 import React from "react";
-import { Container, Nav, Navbar, NavDropdown } from "react-bootstrap";
+import { Container, Nav, Navbar } from "react-bootstrap";
+
+var styles = {
+  back: {
+    display: "block",
+  },
+};
 
 const Navigation = () => {
   return (
     <div>
-      <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+      <Navbar
+        style={{ backgroundColor: "#616161" }}
+        collapseOnSelect
+        expand="lg"
+        variant="dark"
+      >
         <Container>
           <Navbar.Brand href="#home">Get-Car</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
