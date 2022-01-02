@@ -11,7 +11,7 @@ const slideImages = [bg1, bg1, bg1];
 
 const Banner = () => {
   return (
-    <div className="justify-content-start">
+    <div style={{ height: "620px" }} className="justify-content-start">
       <div>
         <h1>This is Slider Sample</h1>
       </div>
