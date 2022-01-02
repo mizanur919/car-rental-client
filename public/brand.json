@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "brandName": "Mercedes Benz C-Class",
+        "description": "The Mercedes-Benz C-Class is a series of compact executive cars produced by Daimler AG. Introduced in 1993 as a replacement for the 190 (W201) range, the C-Class was the smallest model in the marque's line-up until the W168 A-Class arrived in 1997.",
+        "origin": "Germany",
+        "img": "https://i.ibb.co/Rg4QrRZ/Mercedes-C-Class-Estate-1-960x550.jpg"
+    },
+    {
+        "id": 2,
+        "brandName": "Audi A3",
+        "description": "The Audi A3 is a subcompact executive and small family car (C-segment) since 1996, and currently in its fourth generation. The A3 was initially available only with a three-door hatchback body, to present a more sporty image than the Golf, in both front and four-wheel drive.",
+        "origin": "Germany",
+        "img": "https://i.ibb.co/0Z3BPYD/2015-audi-a3-100460783-h-960x550.jpg"
+    },
+    {
+        "id": 3,
+        "brandName": "BMW 3 Series",
+        "description": "The 3 Series brings power and innovation together in a sedan made to move – from the combustion engine and integrated electric motor of the 330e to the M340i’s robust inline-6 cylinder that can generate up to 382 horsepower.",
+        "origin": "Germany",
+        "img": "https://i.ibb.co/hdWSG3b/bmw-3-series-sedan-wallpaper-1920x1200-05-960x550.jpg"
+    },
+    {
+        "id": 4,
+        "brandName": "Lexus LS 460",
+        "description": "Lexus is the luxury vehicle division of the Japanese automaker Toyota. The Lexus brand is marketed in more than 70 countries and territories worldwide and is Japan's largest-selling make of premium cars.",
+        "origin": "Toyota, Japan",
+        "img": "https://i.ibb.co/gzQBzFP/2017-lexus-ls-460-2-960x550.jpg"
+    },
+    {
+        "id": 5,
+        "brandName": "MINI Cooper S",
+        "description": "Mini is a British automotive marque founded in 1969, owned by German automotive company BMW since 2000, and used by them for a range of small cars.",
+        "origin": "Great Britain",
+        "img": "https://i.ibb.co/0tftbFF/2016-MINI-Cooper-S-Clubman-ALL4-960x550.jpg"
+    },
+    {
+        "id": 6,
+        "brandName": "Porsche Cayenne",
+        "description": "The Porsche Cayenne is a series of mid-size luxury crossover sport utility vehicles manufactured by the German automaker Porsche since 2002, with North American sales beginning in 2003. It is the first V8-engined vehicle built by Porsche since 1995, when the Porsche 928 was discontinued.",
+        "origin": "Germany",
+        "img": "https://i.ibb.co/CtY0dKK/P14-0596-a4-rgb-1-960x550.jpg"
+    }
+]
