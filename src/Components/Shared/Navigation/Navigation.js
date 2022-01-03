@@ -19,10 +19,7 @@ const Navigation = () => {
       >
         <Container>
           <Navbar.Brand href="#home">Get-Car</Navbar.Brand>
-          <Navbar.Toggle
-            aria-controls="navbarScroll"
-            aria-controls="responsive-navbar-nav"
-          />
+          <Navbar.Toggle  aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav navbarScroll className="me-auto">
               <Nav.Link href="#home">Home</Nav.Link>
