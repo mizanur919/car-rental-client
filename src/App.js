@@ -25,7 +25,6 @@ import {
 function App() {
   return (
     <div className="App">
-<<<<<<< HEAD
       <AuthProvider>
         <Router>
           <Routes>
@@ -39,14 +38,6 @@ function App() {
           </Routes>
         </Router>
       </AuthProvider>
-=======
-      <Navigation />
-      <About />
-      <Services />
-      <SingleBrand />
-      <ContactUs />
-      <Choose />
->>>>>>> alamgir
     </div>
   );
 }
