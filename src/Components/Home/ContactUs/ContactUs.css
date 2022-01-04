@@ -1,0 +1,11 @@
+.form-body{
+    margin-top: 50px;
+    width: 50%;
+    background-image: url('/src/img/contact_background_img.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.contact-form{
+    margin: 25px 85px 75px 100px;
+}

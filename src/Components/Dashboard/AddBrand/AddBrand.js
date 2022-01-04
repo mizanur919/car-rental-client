@@ -7,7 +7,7 @@ const AddBrand = () => {
   const [brand, setBrand] = useState({});
   const [getAllBrands, setGetAllBrands] = useState([]);
 
-  fetch("http://localhost:5000/brands")
+  fetch("https://secure-ocean-93032.herokuapp.com/brands")
     .then((res) => res.json())
     .then((data) => setGetAllBrands(data));
 
@@ -22,7 +22,7 @@ const AddBrand = () => {
 
   // Add Brand
   const handleBrandSubmit = (e) => {
-    fetch("http://localhost:5000/brands/add", {
+    fetch("https://secure-ocean-93032.herokuapp.com/brands/add", {
       method: "POST",
       headers: {
         "content-type": "application/json",
@@ -33,7 +33,7 @@ const AddBrand = () => {
       .then((data) => {
         if (data.insertedId) {
           alert("Brand Added Successfully");
-          fetch("http://localhost:5000/brands")
+          fetch("https://secure-ocean-93032.herokuapp.com/brands")
             .then((res) => res.json())
             .then((data) => setGetAllBrands(data));
         } else {
@@ -45,7 +45,7 @@ const AddBrand = () => {
 
   // Update Brand
   // const handleUpdateBrand = (id) => {
-  //   const url = `http://localhost:5000/brands/${id}`;
+  //   const url = `https://secure-ocean-93032.herokuapp.com/brands/${id}`;
   //   fetch(url, {
   //     method: "PUT",
   //     headers: {
@@ -91,7 +91,7 @@ const AddBrand = () => {
 
   // Delete Brand
   const handleDelete = (id) => {
-    const url = `http://localhost:5000/brands/${id}`;
+    const url = `https://secure-ocean-93032.herokuapp.com/brands/${id}`;
     if (window.confirm("Are you sure?")) {
       fetch(url, {
         method: "DELETE",
