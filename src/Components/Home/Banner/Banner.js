@@ -1,23 +1,11 @@
 import React from "react";
 import "react-slideshow-image/dist/styles.css";
-import { Slide } from "react-slideshow-image";
 import bg from "../../../images/bg1.jpg";
 import "./Banner.css";
-import {
-  Button,
-  Carousel,
-  Col,
-  Container,
-  Dropdown,
-  DropdownButton,
-  Form,
-  Row,
-  SplitButton,
-} from "react-bootstrap";
+import { Button, Col, Container, Form, Row } from "react-bootstrap";
 import BackgroundSlider from "react-background-slider";
 import "bootstrap/dist/css/bootstrap.css";
 const bg1 = bg;
-const slideImages = [bg1, bg1, bg1];
 
 const Banner = () => {
   return (

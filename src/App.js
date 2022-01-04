@@ -14,6 +14,7 @@ import {
   useRouteMatch,
   useParams,
 } from "react-router-dom";
+import FooterTop from "./Components/Shared/Footer/FooterTop";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
             <Route exact path="/" element={<Home />} />
             <Route path="/login" element={<Login />} />
           </Routes>
+          <FooterTop />
         </Router>
       </AuthProvider>
     </div>
