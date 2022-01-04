@@ -16,20 +16,26 @@ const FooterTop = () => {
                 You will get you dream car as rental with you resonable budget.
               </p>
               <div className="mt-4">
-                <a type="button" className="btn btn-floating btn-light btn-lg">
-                  <i className="fab fa-facebook-f"></i>
+                <a
+                  type="button"
+                  className="btn btn-floating btn-light btn-lg me-2"
+                >
+                  <i className="fab fa-facebook-f text-black"></i>
                 </a>
-
-                <a type="button" className="btn btn-floating btn-light btn-lg">
-                  <i className="fab fa-dribbble"></i>
+                <a
+                  type="button"
+                  className="btn btn-floating btn-light btn-lg me-2"
+                >
+                  <i className="fab fa-dribbble text-black"></i>
                 </a>
-
-                <a type="button" className="btn btn-floating btn-light btn-lg">
-                  <i className="fab fa-twitter"></i>
+                <a
+                  type="button"
+                  className="btn btn-floating btn-light btn-lg me-2"
+                >
+                  <i className="fab fa-twitter text-black"></i>
                 </a>
-
                 <a type="button" className="btn btn-floating btn-light btn-lg">
-                  <i className="fab fa-google-plus-g"></i>
+                  <i className="fab fa-google-plus-g text-black"></i>
                 </a>
               </div>
             </div>
