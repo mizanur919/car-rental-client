@@ -1,4 +1,5 @@
 import React from "react";
+import FooterTop from "../../Shared/Footer/FooterTop";
 import Navigation from "../../Shared/Navigation/Navigation";
 import "./ContactUs.css";
 
@@ -27,6 +28,7 @@ const ContactUs = () => {
           </form>
         </div>
       </div>
+      <FooterTop />
     </>
   );
 };

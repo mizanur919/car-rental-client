@@ -1,4 +1,5 @@
 import React from "react";
+import FooterTop from "../Shared/Footer/FooterTop";
 import Navigation from "../Shared/Navigation/Navigation";
 import "./About.css";
 
@@ -58,6 +59,7 @@ const About = () => {
           </div>
         </div>
       </div>
+      <FooterTop />
     </>
   );
 };
