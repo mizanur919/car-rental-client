@@ -1,8 +1,9 @@
 import React from "react";
 import Navigation from "../../Shared/Navigation/Navigation";
 import Banner from "../Banner/Banner";
-import SingleBrand from "../SingleBrand/SingleBrand";
+import Services from "../../Home/Services/Services";
 import "./Home.css";
+import SingleBrand from "../SingleBrand/SingleBrand";
 
 const Home = () => {
   return (
@@ -10,6 +11,7 @@ const Home = () => {
       <Navigation />
       <Banner />
       <SingleBrand />
+      <Services />
     </div>
   );
 };
