@@ -6,7 +6,7 @@ const About = () => {
         <divc className="container-fluid">
             <h2 className="bg-primary text-white py-5">About Us</h2>
             <div className="container">
-                <div className="para">
+                <div className="my-5 para">
                     <p>
                         Car rental is an online car rental service provider in Bangladesh and has been dealing in this field since long. You can trust us for all your traveling needs. In Bangladesh, we have introduced online booking system and for the ease of travellers, we take all main credit/debit cards like American Express, MasterCard, Discover and Visafor the payments.
                     </p>
