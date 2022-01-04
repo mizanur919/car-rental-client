@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <div>
       <Navigation />
-      {/* <Banner /> */}
+      <Banner />
       <SingleBrand />
     </div>
   );
