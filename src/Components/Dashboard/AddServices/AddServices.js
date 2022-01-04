@@ -7,7 +7,7 @@ const AddServices = () => {
   const [service, setService] = useState({});
   const [getAllServices, setGetAllServices] = useState([]);
 
-  fetch("http://localhost:5000/services")
+  fetch("https://secure-ocean-93032.herokuapp.com/services")
     .then((res) => res.json())
     .then((data) => setGetAllServices(data));
 
@@ -22,7 +22,7 @@ const AddServices = () => {
 
   // Add Brand
   const handleServiceSubmit = (e) => {
-    fetch("http://localhost:5000/services/add", {
+    fetch("https://secure-ocean-93032.herokuapp.com/services/add", {
       method: "POST",
       headers: {
         "content-type": "application/json",
@@ -33,7 +33,7 @@ const AddServices = () => {
       .then((data) => {
         if (data.insertedId) {
           alert("Service Added Successfully");
-          fetch("http://localhost:5000/services")
+          fetch("https://secure-ocean-93032.herokuapp.com/services")
             .then((res) => res.json())
             .then((data) => setGetAllServices(data));
         } else {
@@ -45,7 +45,7 @@ const AddServices = () => {
 
   // Delete Brand
   const handleDelete = (id) => {
-    const url = `http://localhost:5000/services/${id}`;
+    const url = `https://secure-ocean-93032.herokuapp.com/services/${id}`;
     if (window.confirm("Are you sure?")) {
       fetch(url, {
         method: "DELETE",
