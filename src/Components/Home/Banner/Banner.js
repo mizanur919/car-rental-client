@@ -2,7 +2,6 @@ import React from "react";
 import "react-slideshow-image/dist/styles.css";
 import { Slide } from "react-slideshow-image";
 import bg from "../../../images/bg1.jpg";
-import "./Banner.css";
 import { Carousel } from "react-bootstrap";
 import BackgroundSlider from "react-background-slider";
 
